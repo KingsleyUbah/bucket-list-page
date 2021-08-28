@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Bucket List</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+      <header id="main-header" class="bg-info text-black p-4 m-4">
+        <div class="container">
+          <h1 id="header-title">My Bucket List</h1>
+        </div>
+      </header>
+
+      <div class="container">
+        <div class="card card-body">
+          <h2 id="title">Add a new experience</h2>
+          <form action="" class="form-inline m-3">
+            <input type="text" class="form-control m-2">
+            <input type="submit" class="btn btn-success" value="Include!">
+          </form>
+          <h2 class="title">Your List</h2>
+          <ul id="items" class="list-group">
+            <li class="list-group-item" name="list">Ride on a horse</li>
+            <li class="list-group-item" name="list">Visit Rome</li>
+            <li class="list-group-item" name="list">Climb mount everest</li>
+            <li class="list-group-item" name="list">Travel to 50 Countries</li>
+          </ul>
+        </div>
+      </div>
+  </div>
+  <script src="./domapi.js"/>
+</body>
+</html>
